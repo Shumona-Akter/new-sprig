@@ -63,6 +63,7 @@ ul, li{
     color: var(--first-cl);
     text-transform: capitalize;
     padding:35px 0 0 35px;
+    text-align: left;
 
 }
 /* padding 35 */
@@ -73,7 +74,7 @@ ul, li{
     font-weight: 400;
     padding-bottom: 30px;
     color: var(--first-cl);
-    text-transform: capitalize;
+    text-transform: uppercase;
     position: relative;
 }
 .event-heading:hover{
@@ -103,7 +104,8 @@ ul, li{
     content: " ";
     position: absolute;
     top: 0;
-    right: 78px;
+    right: 96px;
+    width: 20px;
     padding: 10px;
     background: url(../images/leep.png) no-repeat center ;
     
@@ -187,7 +189,10 @@ ul, li{
 /* width */
 .width-100{
     width: 100%;
-    border: 1px solid #95ADA7;
+    border-top: 1px solid #95ADA7 ;
+    border-bottom: 1px solid #95ADA7;
+    border-left: 1px solid #95ADA7;
+    border-right: 1px solid #95ADA7 ;
 }
 .details-border{
     width: 100%;
@@ -216,10 +221,11 @@ nab ebebeebe==========
     justify-content: space-around;
     align-items: center;
     background: var(--primary-cl);
+    flex-wrap: nowrap;
   }
 
   .nav__item {
-    padding: 1rem;
+    padding: 1rem 0;
   }
 
   .nav__link {
@@ -242,12 +248,11 @@ nab ebebeebe==========
   .nav__link.active::after  {
     content: " ";
     position: absolute;
-    bottom: -27px;
+    bottom: -22px;
     left: 40%;
-    width: 15px;
-    height: 15px;
-    -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    width: 13.79px;
+    height: 13.79px;
+    transform: rotate(45deg);
     background: var(--primary-cl);
   }
 
@@ -339,6 +344,7 @@ nab ebebeebe==========
     background: none;
     border: none;
     outline: none;
+    margin-right: 10px;
 }
 
 .sprig .bar, .sprig::after, .sprig::before{
@@ -376,7 +382,7 @@ nab ebebeebe==========
     background: var(--primary-cl);
     padding: 24px 0;
     display: block;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-family: var(--ff2);
     font-weight: 400;
     font-size: 16px;
@@ -394,3 +400,28 @@ nab ebebeebe==========
   .banner-img{
     width: 200px;
   }
+/* revision */
+
+/* menu img */
+.menu-items-img{
+    width: 40px;
+    height: 100%;
+    background: rgba(152, 188, 88, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu-items-name{
+    font-family: var(--ff1);
+    font-weight: 500;
+    size: 21px;
+    letter-spacing: 5px;
+    color: #778E88;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    text-align: center;
+
+}
+
+

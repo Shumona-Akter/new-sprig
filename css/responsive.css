@@ -74,6 +74,38 @@
         padding: 10px 10px;
         font-size: 16px;
     }
+    .pading-left-0 {
+        padding-left: 0;
+    }
+    /* event */
+    
+    .event-heading{
+        font-size: 12px;
+        padding-bottom: 0;
+        padding-top: 20px;
+        position: relative;
+    }
+    .item .active-corporate::after  {
+        top: 16px;
+        left: -23px;
+        background: url(../images/leep2.png) no-repeat ;
+    }
+    
+    .item .active-social::after  {
+      
+        top: 16px;
+        left: -18px;
+        background: url(../images/leep2.png) no-repeat ;
+    }
+    
+    .item .active-wedding::after  {
+      
+      
+    }
+    .event-heading:hover{
+        border-bottom: 1px solid #9FC7BA;
+    }
+    
 } 
 
 @media (max-width: 575px) {
@@ -96,20 +128,7 @@
         padding-top: 30px;
     }
 
-    .item .active-corporate::after  {
-      display: none;
-        
-      }
-      
-      .item .active-social::after  {
-        display: none;
-        
-      }
-      
-      .item .active-wedding::after  {
-        display: none;
-        
-      }
+   
 
       .btn-all{
         padding: 10px 10px;
@@ -119,4 +138,56 @@
         display: none;
         
       }
+      .width-100{
+        width: 100%;
+        border-top: 1px solid #95ADA7 ;
+        border-bottom: 1px solid #95ADA7;
+        border-left: none;
+        border-right: none ;
+    }
+      .details-border{
+        width: 100%;
+        border-top: 1px solid #95ADA7 ;
+        border-bottom: 1px solid #95ADA7;
+        border-left: none;
+        border-right: none ;
+    }
+    .py-14{
+        padding: 14px 0;
+    }
+    .details-spacing {
+        padding: 0 0 14px 0;
+    }
+    .pading-left-0 {
+        padding-left: 0;
+    }
+
+    .event-heading{
+        font-size: 12px;
+        padding-bottom: 0;
+        padding-top: 20px;
+        position: relative;
+    }
+    .item .active-corporate::after  {
+        top: 16px;
+        left: -23px;
+        background: url(../images/leep2.png) no-repeat ;
+    }
+    
+    .item .active-social::after  {
+        top: 16px;
+        left: -18px;
+        background: url(../images/leep2.png) no-repeat ;
+
+      
+    }
+    
+    .item .active-wedding::after  {
+      
+      
+    }
+    .event-heading:hover{
+        border-bottom: 1px solid #9FC7BA;
+    }
+    
 } 
