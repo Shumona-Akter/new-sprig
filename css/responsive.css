@@ -88,7 +88,7 @@
     .item .active-corporate::after  {
         top: 16px;
         left: -23px;
-        background: url(../images/leep2.png) no-repeat ;
+        background: none;
     }
     
     .item .active-social::after  {
@@ -102,9 +102,21 @@
       
       
     }
-    .event-heading:hover{
-        border-bottom: 1px solid #9FC7BA;
+    .item .active-corporate::after  {
+        top: 16px;
+        left: -23px;
+        background: url(../images/leep2.png) no-repeat ;
     }
+    
+    .item .active-social::after  {
+        top: 16px;
+        left: -18px;
+        background: url(../images/leep2.png) no-repeat ;
+
+      
+    }
+    
+    
     
 } 
 
@@ -117,11 +129,11 @@
     }
     .event-heading{
         font-family: var(--ff2);
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         padding-bottom: 30px;
         color: var(--first-cl);
-        text-transform: capitalize;
+        text-transform: uppercase;
         position: relative;
     }
     .p-36{
@@ -169,15 +181,27 @@
         position: relative;
     }
     .item .active-corporate::after  {
-        top: 16px;
-        left: -23px;
-        background: url(../images/leep2.png) no-repeat ;
+    top: 21px;    
+    left: -13px;
+    background: #9FC7BA ;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    -webkit-clip-path: ellipse(19% 50% at 50% 50%);
+    clip-path: ellipse(19% 50% at 50% 50%);
+    transform: rotate(-30deg);
     }
     
     .item .active-social::after  {
-        top: 16px;
-        left: -18px;
-        background: url(../images/leep2.png) no-repeat ;
+        top: 21px;    
+    left: -13px;
+    background: #9FC7BA ;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    -webkit-clip-path: ellipse(19% 50% at 50% 50%);
+    clip-path: ellipse(19% 50% at 50% 50%);
+    transform: rotate(-30deg);
 
       
     }
@@ -186,8 +210,16 @@
       
       
     }
-    .event-heading:hover{
+    /* .event-heading:hover{
         border-bottom: 1px solid #9FC7BA;
+    } */
+    .success-content{
+        background: #0b811b;
+        padding: 40px 20px;
+        border-radius: 10px;
+        font-family: var(--ff2);
+        color: #ffffff;
+        width: 300px;
+        text-align: center;
     }
-    
 } 

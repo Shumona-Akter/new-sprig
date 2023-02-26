@@ -73,4 +73,7 @@ $('.center-div').slick({
         inputCounter = inputCounter - 1;
         inputField.value = inputCounter;
       });
+  document.getElementById('submit-btn').addEventListener('click', function(){
+    window.location.href = "submit-success.html"
+  })    
           

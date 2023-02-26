@@ -84,7 +84,7 @@ ul, li{
 .item .active-corporate  {
     position: relative;
   }
-  .item .active-cooking{
+.item .active-cooking{
     position: relative;
 
   }
@@ -92,9 +92,23 @@ ul, li{
     content: " ";
     position: absolute;
     top: 0;
-    right: 120px;
+    left: -23px;
+    width: 20px;
     padding: 10px;
     background: url(../images/leep.png) no-repeat center ;
+    
+  }
+  .item .active-underline  {
+    position: relative;
+  } 
+  .item .active-underline::before  {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 120px;
+    width: 100%;
+    border-bottom: 1px solid var(--primary-cl);
     
   }
   .padding-cooking-bottom{
@@ -295,11 +309,11 @@ nab ebebeebe==========
 }
  input{
     width: 100%;
-    background: #ACC3BD;
+    background: #ACC3BD33;
     padding: 10px;
     border: 1px solid var(--first-cl);
     outline: none;
-    color: #fff;
+    color: #353535;
     margin-top: 16px;
 }
 .width-75px{
@@ -424,4 +438,42 @@ nab ebebeebe==========
 
 }
 
+.success{
+    background-color: rgba(172, 195, 189, 0.205);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success-content{
+    background: #0b811b;
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-family: var(--ff2);
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+}
+.success-content h1{
+    font-size: 20px;
+}
 
+.btn-success{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+}
+.btn-success:hover{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+}
+.color-icon{
+    line-height: 30px;
+    color: #0b811b;
+}
