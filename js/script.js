@@ -58,10 +58,11 @@ $('.center-div').slick({
         menuBtn.classList.toggle('is-active');
         mobileMenu.classList.toggle('is-active');
       });
-      let inputCounter = 0;
+      let inputCounter = 4;
       const counterUp = document.getElementById('counter-up');
       counterUp.addEventListener('click', function(){
         const inputField = document.getElementById("input-field");
+      
         inputCounter = inputCounter + 1;
        
         inputField.value = inputCounter;
