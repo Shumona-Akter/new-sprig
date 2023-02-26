@@ -58,6 +58,7 @@
         padding: 10px 10px;
         font-size: 20px;
     }
+   
 } 
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -127,15 +128,7 @@
     .para{
         padding-top: 35px;
     }
-    .event-heading{
-        font-family: var(--ff2);
-        font-size: 12px;
-        font-weight: 400;
-        padding-bottom: 30px;
-        color: var(--first-cl);
-        text-transform: uppercase;
-        position: relative;
-    }
+    
     .p-36{
         padding-top: 30px;
     }
@@ -175,7 +168,7 @@
     }
 
     .event-heading{
-        font-size: 12px;
+        font-size: 10px;
         padding-bottom: 0;
         padding-top: 20px;
         position: relative;
