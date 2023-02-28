@@ -1,3 +1,5 @@
+
+
 $('.center-div').slick({
     centerMode: true,
     centerPadding: '60px',
@@ -77,4 +79,6 @@ $('.center-div').slick({
   document.getElementById('submit-btn').addEventListener('click', function(){
     window.location.href = "submit-success.html"
   })    
+
+
           
